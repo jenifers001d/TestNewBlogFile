@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>食記</title>
+
+    <!-- 載入 jQuery -->
+    <script src="https://goo.gl/OmE7hm"></script>
+    <!-- 載入 Bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap-3.3.1-dist/dist/css/bootstrap.min.css">
+    <!-- 載入 自己編輯的CSS樣式表，放在Bootstrap後面thumbnail才不會一直有邊框 -->
+    <link rel="stylesheet" href="assets/CSS/main.css">
+    <!-- 載入 自己編輯的JavaScript -->
+    <script src="assets/JS/appMain.js"></script>
+    <!-- 使用 RWD 功能 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 載入 Google material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>♥ Delicacy ♥</h1>
+        <p>喜歡享受美食、喜歡拍照攝影、喜歡紀錄分享</p>
+
+        <!-- 用jumbotron 包住 container 類別，可以得到寬度100%且沒有圓角的大型看板 -->
+        <div class="jumbotron">
+            <div class="container">
+                <h2>Hello</h2>
+                <p style="font-weight:400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quibusdam asperiores id quod fugiat voluptatem perspiciatis cumque, sed aliquam aut, vel eos! Sint suscipit blanditiis consequatur dolores earum mollitia quam!</p>
+                <button class="btn btn-lg"><a href="assets/Pages/About.html">Read more</a></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/Image/Chinese/1465650960652.jpg" alt="None">
+                    <a href="assets/Pages/Chinese.html">
+                        <div class="opacity">
+                            <div>Chinese</div>
+                        </div>
+                    </a>
+                </div>
+                <h3>中式</h3>
+                <p>台菜 . 湘菜 . 川菜 . 港式</p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/Image/Western/IMAG1604.jpg" alt="None">
+                    <a href="assets/Pages/Western.html">
+                        <div class="opacity">
+                            <div>Western</div>
+                        </div>
+                    </a>
+                </div>
+                <h3>西式</h3>
+                <p>美式 . 義式 . 法式 . 甜點</p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="thumbnail">
+                    <img src="assets/Image/Japanese/IMAG2757.jpg" alt="None">
+                    <a href="assets/Pages/Japanese.html">
+                        <div class="opacity">
+                            <div>Japanese</div>
+                        </div>
+                    </a>
+                </div>
+
+                <h3>日式</h3>
+                <p>丼飯 . 拉麵 . 壽司 . 豬排</p>
+            </div>
+        </div>
+        <div class="row">
+            <ul align="center">
+                <li>你喜歡哪一種餐點呢?
+                    <button id="btn2" class="btn">Submit</button>
+                    <br>
+                    <input name="Q1" type="checkbox" id="select1" value="1"> 中式
+                    <input name="Q1" type="checkbox" id="select2" value="1"> 西式
+                    <input name="Q1" type="checkbox" id="select3" value="1"> 日式
+                </li>
+                <p id="result1">我也這麼認為。</p>
+                <p id="result2">注意健康飲食。</p>
+                <p id="result3">你一定會胖死。</p>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="icon">
+            <i class="material-icons">mail_outline</i>
+        </div>
+        <a href="jenifers001d@gmail.com">jenifers001d@gmail.com</a>
+    </footer>
+</body>
+
+</html>
